@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "custom-music-disks",
+	"version": "0.0.1",
+	"name": "Custom music disks",
+	"description": "Allows you to create custom music disks in Minecraft.",
+	"authors": [
+		"objetiveSquid / Magnus Zahle"
+	],
+	"contact": {
+		"homepage": "https://mkz.dk/",
+		"sources": "https://github.com/objectiveSquid/custom-music-disks"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/custom-music-disks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dk.mkz.custommusicdisks.CustomMusicDisks"
+		],
+		"fabric-datagen": [
+			"dk.mkz.custommusicdisks.CustomMusicDisksDataGenerator"
+		],
+		"client": [
+			"dk.mkz.custommusicdisks.CustomMusicDisksClient"
+		]
+	},
+	"mixins": [
+		"custom-music-disks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
