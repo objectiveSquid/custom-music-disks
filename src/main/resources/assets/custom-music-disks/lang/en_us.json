@@ -1,5 +1,7 @@
 {
   "item.custom-music-disks.custom_disk": "Custom Disk",
 
-  "item.custom-music-disks.custom_disk_player": "Custom Disk Player"
+  "item.custom-music-disks.custom_disk_player": "Custom Disk Player",
+
+  "itemgroup.custom-music-disks.custom_music_disks": "Custom music disks"
 }

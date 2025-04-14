@@ -1,7 +1,9 @@
 package dk.mkz.custommusicdisks;
 
 import dk.mkz.custommusicdisks.block.ModBlocks;
+import dk.mkz.custommusicdisks.item.ModItemGroups;
 import dk.mkz.custommusicdisks.item.ModItems;
+import dk.mkz.custommusicdisks.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,7 +15,9 @@ public class CustomMusicDisks implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModSounds.registerSounds();
 	}
 }
