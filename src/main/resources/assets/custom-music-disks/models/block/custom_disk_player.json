@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_top",
-  "textures": {
-    "side": "custom-music-disks:block/custom_disk_player_side",
-    "top": "custom-music-disks:block/custom_disk_player_top"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "custom_disk_sound": {
-    "subtitle": "sounds.custom-music-disks.custom_disk_sound",
-    "sounds": [
-      "custom-music-disks:custom_disk_sound"
-    ]
-  }
-}

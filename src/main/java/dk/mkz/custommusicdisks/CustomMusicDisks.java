@@ -1,6 +1,5 @@
 package dk.mkz.custommusicdisks;
 
-import dk.mkz.custommusicdisks.block.ModBlocks;
 import dk.mkz.custommusicdisks.item.ModItemGroups;
 import dk.mkz.custommusicdisks.item.ModItems;
 import dk.mkz.custommusicdisks.sound.ModSounds;
@@ -17,7 +16,6 @@ public class CustomMusicDisks implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
 		ModSounds.registerSounds();
 	}
 }

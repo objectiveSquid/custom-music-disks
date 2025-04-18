@@ -1,6 +1,8 @@
 package dk.mkz.custommusicdisks.item;
 
 import dk.mkz.custommusicdisks.CustomMusicDisks;
+import dk.mkz.custommusicdisks.sound.ModSounds;
+import net.minecraft.block.jukebox.JukeboxSong;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -9,7 +11,13 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item CUSTOM_DISK = registerItem("custom_disk", Item.class, new Item.Settings());
+    public static final Item SIGMA_BOY_DISK = registerMusicDisk("sigma_boy_disk", ModSounds.SIGMA_BOY_KEY);
+    public static final Item NOT_LIKE_US_DISK = registerMusicDisk("not_like_us_disk", ModSounds.NOT_LIKE_US_KEY);
+    public static final Item ITALIAN_BRAINROT_DISK = registerMusicDisk("italian_brainrot_disk", ModSounds.ITALIAN_BRAINROT_KEY);
+
+    private static Item registerMusicDisk(String name, RegistryKey<JukeboxSong> soundKey) {
+        return registerItem(name, Item.class, new Item.Settings().jukeboxPlayable(soundKey).maxCount(1));
+    }
 
     private static Item registerItem(String name, Class<? extends Item> itemClass, Item.Settings itemSettings) {
         itemSettings = itemSettings.registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CustomMusicDisks.MOD_ID,name)));

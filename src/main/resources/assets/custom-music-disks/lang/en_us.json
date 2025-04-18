@@ -1,7 +1,12 @@
 {
-  "item.custom-music-disks.custom_disk": "Custom Disk",
+  "item.custom-music-disks.sigma_boy_disk": "Sigma Boy Disk",
+  "item.custom-music-disks.sigma_boy_disk.desc": "Betsy, Мария Янковская - Сигма Бой",
 
-  "item.custom-music-disks.custom_disk_player": "Custom Disk Player",
+  "item.custom-music-disks.not_like_us_disk": "Not like us Disk",
+  "item.custom-music-disks.not_like_us_disk.desc": "Kendrick Lamar - Not like us",
+
+  "item.custom-music-disks.italian_brainrot_disk": "Italian brainrot Disk",
+  "item.custom-music-disks.italian_brainrot_disk.desc": "Unknown author - Italian brainrot",
 
   "itemgroup.custom-music-disks.custom_music_disks": "Custom music disks"
 }

@@ -1,7 +1,6 @@
 package dk.mkz.custommusicdisks.item;
 
 import dk.mkz.custommusicdisks.CustomMusicDisks;
-import dk.mkz.custommusicdisks.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,11 +13,12 @@ public class ModItemGroups {
     public static final ItemGroup CUSTOM_MUSIC_DISKS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(CustomMusicDisks.MOD_ID, "custom_music_disks"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(ModItems.CUSTOM_DISK))
+                    .icon(() -> new ItemStack(ModItems.SIGMA_BOY_DISK))
                     .displayName(Text.translatable("itemgroup.custom-music-disks.custom_music_disks"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.CUSTOM_DISK);
-                        entries.add(ModBlocks.CUSTOM_DISK_PLAYER);
+                        entries.add(ModItems.SIGMA_BOY_DISK);
+                        entries.add(ModItems.NOT_LIKE_US_DISK);
+                        entries.add(ModItems.ITALIAN_BRAINROT_DISK);
                     })
                     .build()
     );
