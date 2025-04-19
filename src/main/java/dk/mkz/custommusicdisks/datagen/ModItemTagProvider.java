@@ -18,6 +18,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.Items.CUSTOM_MUSIC_DISKS)
                 .add(ModItems.SIGMA_BOY_DISK)
                 .add(ModItems.NOT_LIKE_US_DISK)
-                .add(ModItems.ITALIAN_BRAINROT_DISK);
+                .add(ModItems.ITALIAN_BRAINROT_DISK)
+                .add(ModItems.HELLO_MR_PUTIN_DISK);
     }
 }

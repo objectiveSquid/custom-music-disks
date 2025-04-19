@@ -8,5 +8,8 @@
   "item.custom-music-disks.italian_brainrot_disk": "Italian brainrot Disk",
   "item.custom-music-disks.italian_brainrot_disk.desc": "Unknown author - Italian brainrot",
 
+  "item.custom-music-disks.hello_mr_putin_disk": "Hello Mr. Putin Disk",
+  "item.custom-music-disks.hello_mr_putin_disk.desc": "Unknown author - Hello Mr. Putin",
+
   "itemgroup.custom-music-disks.custom_music_disks": "Custom music disks"
 }

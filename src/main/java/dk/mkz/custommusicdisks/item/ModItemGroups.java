@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SIGMA_BOY_DISK);
                         entries.add(ModItems.NOT_LIKE_US_DISK);
                         entries.add(ModItems.ITALIAN_BRAINROT_DISK);
+                        entries.add(ModItems.HELLO_MR_PUTIN_DISK);
                     })
                     .build()
     );

@@ -22,6 +22,10 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> ITALIAN_BRAINROT_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(CustomMusicDisks.MOD_ID, "italian_brainrot"));
 
+    public static final SoundEvent HELLO_MR_PUTIN_SOUND = registerSoundEvent("hello_mr_putin");
+    public static final RegistryKey<JukeboxSong> HELLO_MR_PUTIN_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(CustomMusicDisks.MOD_ID, "hello_mr_putin"));
+
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(CustomMusicDisks.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

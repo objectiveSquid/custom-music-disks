@@ -25,7 +25,8 @@ public class ModJukeboxSongProvider implements DataProvider {
         Map<String, SongData> songs = Map.of(
                 "sigma_boy", new SongData("custom-music-disks:sigma_boy", 160.0F, 15),
                 "not_like_us", new SongData("custom-music-disks:not_like_us", 273.0F, 15),
-                "italian_brainrot", new SongData("custom-music-disks:italian_brainrot", 44.0F, 15)
+                "italian_brainrot", new SongData("custom-music-disks:italian_brainrot", 44.0F, 15),
+                "hello_mr_putin", new SongData("custom-music-disks:hello_mr_putin", 24.0F, 15)
         );
 
         for (var entry : songs.entrySet()) {

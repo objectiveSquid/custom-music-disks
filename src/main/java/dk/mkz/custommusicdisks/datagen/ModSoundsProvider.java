@@ -23,7 +23,8 @@ public class ModSoundsProvider implements DataProvider {
         List<SoundData> sounds = List.of(
             new SoundData("sigma_boy", true),
             new SoundData("not_like_us", true),
-            new SoundData("italian_brainrot", true)
+            new SoundData("italian_brainrot", true),
+            new SoundData("hello_mr_putin", true)
         );
 
         JsonObject json = new JsonObject();
