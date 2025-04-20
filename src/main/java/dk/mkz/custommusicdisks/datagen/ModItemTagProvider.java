@@ -19,6 +19,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.SIGMA_BOY_DISK)
                 .add(ModItems.NOT_LIKE_US_DISK)
                 .add(ModItems.ITALIAN_BRAINROT_DISK)
-                .add(ModItems.HELLO_MR_PUTIN_DISK);
+                .add(ModItems.HELLO_MR_PUTIN_DISK)
+                .add(ModItems.BALLIN_DISK)
+                .add(ModItems.IPHONE_RADAR_DISK)
+                .add(ModItems.IPHONE_RADAR_WW_DISK);
     }
 }

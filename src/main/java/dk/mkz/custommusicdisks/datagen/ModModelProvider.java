@@ -22,5 +22,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NOT_LIKE_US_DISK, Models.GENERATED);
         itemModelGenerator.register(ModItems.ITALIAN_BRAINROT_DISK, Models.GENERATED);
         itemModelGenerator.register(ModItems.HELLO_MR_PUTIN_DISK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BALLIN_DISK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IPHONE_RADAR_DISK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IPHONE_RADAR_WW_DISK, Models.GENERATED);
     }
 }

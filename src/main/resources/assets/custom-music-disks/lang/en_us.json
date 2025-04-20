@@ -11,5 +11,14 @@
   "item.custom-music-disks.hello_mr_putin_disk": "Hello Mr. Putin Disk",
   "item.custom-music-disks.hello_mr_putin_disk.desc": "Unknown author - Hello Mr. Putin",
 
+  "item.custom-music-disks.ballin_disk": "Ballin' Disk",
+  "item.custom-music-disks.ballin_disk.desc": "DJ Mustard & Roddy Rich - Ballin'",
+
+  "item.custom-music-disks.iphone_radar_disk": "Radar Disk",
+  "item.custom-music-disks.iphone_radar_disk.desc": "Apple - Radar",
+
+  "item.custom-music-disks.iphone_radar_ww_disk": "Radar Disk (Worldwide)",
+  "item.custom-music-disks.iphone_radar_ww_disk.desc": "Apple - Radar",
+
   "itemgroup.custom-music-disks.custom_music_disks": "Custom music disks"
 }

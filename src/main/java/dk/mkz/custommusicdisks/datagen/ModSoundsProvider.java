@@ -24,7 +24,10 @@ public class ModSoundsProvider implements DataProvider {
             new SoundData("sigma_boy", true),
             new SoundData("not_like_us", true),
             new SoundData("italian_brainrot", true),
-            new SoundData("hello_mr_putin", true)
+            new SoundData("hello_mr_putin", true),
+            new SoundData("ballin", true),
+            new SoundData("iphone_radar", true),
+            new SoundData("iphone_radar_ww", true)
         );
 
         JsonObject json = new JsonObject();

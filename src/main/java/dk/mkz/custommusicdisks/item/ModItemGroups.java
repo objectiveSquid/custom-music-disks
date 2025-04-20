@@ -20,6 +20,9 @@ public class ModItemGroups {
                         entries.add(ModItems.NOT_LIKE_US_DISK);
                         entries.add(ModItems.ITALIAN_BRAINROT_DISK);
                         entries.add(ModItems.HELLO_MR_PUTIN_DISK);
+                        entries.add(ModItems.BALLIN_DISK);
+                        entries.add(ModItems.IPHONE_RADAR_DISK);
+                        entries.add(ModItems.IPHONE_RADAR_WW_DISK);
                     })
                     .build()
     );

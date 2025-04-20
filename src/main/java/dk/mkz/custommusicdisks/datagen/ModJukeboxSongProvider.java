@@ -26,7 +26,10 @@ public class ModJukeboxSongProvider implements DataProvider {
                 "sigma_boy", new SongData("custom-music-disks:sigma_boy", 160.0F, 15),
                 "not_like_us", new SongData("custom-music-disks:not_like_us", 273.0F, 15),
                 "italian_brainrot", new SongData("custom-music-disks:italian_brainrot", 44.0F, 15),
-                "hello_mr_putin", new SongData("custom-music-disks:hello_mr_putin", 24.0F, 15)
+                "hello_mr_putin", new SongData("custom-music-disks:hello_mr_putin", 24.0F, 15),
+                "ballin", new SongData("custom-music-disks:ballin", 193.0F, 15),
+                "iphone_radar", new SongData("custom-music-disks:iphone_radar", 26.0F, 15),
+                "iphone_radar_ww", new SongData("custom-music-disks:iphone_radar_ww", 26.0F, 15)
         );
 
         for (var entry : songs.entrySet()) {

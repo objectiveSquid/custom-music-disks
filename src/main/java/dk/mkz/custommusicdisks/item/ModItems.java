@@ -15,6 +15,9 @@ public class ModItems {
     public static final Item NOT_LIKE_US_DISK = registerMusicDisk("not_like_us_disk", ModSounds.NOT_LIKE_US_KEY);
     public static final Item ITALIAN_BRAINROT_DISK = registerMusicDisk("italian_brainrot_disk", ModSounds.ITALIAN_BRAINROT_KEY);
     public static final Item HELLO_MR_PUTIN_DISK = registerMusicDisk("hello_mr_putin_disk", ModSounds.HELLO_MR_PUTIN_KEY);
+    public static final Item BALLIN_DISK = registerMusicDisk("ballin_disk", ModSounds.BALLIN_KEY);
+    public static final Item IPHONE_RADAR_DISK = registerMusicDisk("iphone_radar_disk", ModSounds.IPHONE_RADAR_KEY);
+    public static final Item IPHONE_RADAR_WW_DISK = registerMusicDisk("iphone_radar_ww_disk", ModSounds.IPHONE_RADAR_WW_KEY);
 
     private static Item registerMusicDisk(String name, RegistryKey<JukeboxSong> soundKey) {
         return registerItem(name, Item.class, new Item.Settings().jukeboxPlayable(soundKey).maxCount(1));

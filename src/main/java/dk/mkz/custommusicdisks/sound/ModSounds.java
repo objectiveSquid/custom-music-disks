@@ -26,6 +26,18 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> HELLO_MR_PUTIN_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(CustomMusicDisks.MOD_ID, "hello_mr_putin"));
 
+    public static final SoundEvent BALLIN_SOUND = registerSoundEvent("ballin");
+    public static final RegistryKey<JukeboxSong> BALLIN_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(CustomMusicDisks.MOD_ID, "ballin"));
+
+    public static final SoundEvent IPHONE_RADAR_SOUND = registerSoundEvent("iphone_radar");
+    public static final RegistryKey<JukeboxSong> IPHONE_RADAR_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(CustomMusicDisks.MOD_ID, "iphone_radar"));
+
+    public static final SoundEvent IPHONE_RADAR_WW_SOUND = registerSoundEvent("iphone_radar_ww");
+    public static final RegistryKey<JukeboxSong> IPHONE_RADAR_WW_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(CustomMusicDisks.MOD_ID, "iphone_radar_ww"));
+
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(CustomMusicDisks.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
